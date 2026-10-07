@@ -12,8 +12,8 @@
 - `MULTI-MOD SUPPORT`. Replaces def overrides with def accumulation and conflict specific overrides based on FIFO load order priority. First selected mod is applied first (lowest priority), second selected mod is applied next (overriding only conflicting definitions with first mod, higher priority), third selected mod is applied next (overriding only conflicting definitions with first and second mods, even higher priority), etc.
 - `MULTIPLAYER` for Duke Nukem 3D. Up to 16 player Dukematch (vs real opponents or AI controlled bots or both), adapted from NetDuke32, with custom usermap support. Playable via `Direct` TCP/IP connection or via integrated `NukemNet` IRC Relay.
 - `WEAPON SELECT SHORTCUTS`. Let's the player quickly switch weapons with preset button combinations.
-- `WEAPON WHEEL` for Duke Nukem 3D, Blood, Shadow Warrior, and Redneck Rampage. Let's the player bring up a radial menu on the HUD for weapon swapping as an alternative to the weapon select shortcuts and weapon cycling. Slows game speed while open.
-- `ITEM WHEEL` for Duke Nukem 3D, Blood, Shadow Warrior, and Redneck Rampage. Let's the player bring up a radial menu on the HUD for item usage as an alternative to item cycling. Slows the game down while open.
+- `WEAPON WHEEL` for Duke Nukem 3D, Blood, Shadow Warrior, and Redneck Rampage, Rides Again, and Powerslave. Let's the player bring up a radial menu on the HUD for weapon swapping as an alternative to the weapon select shortcuts and weapon cycling. Slows game speed while open.
+- `ITEM WHEEL` for Duke Nukem 3D, Blood, Shadow Warrior, and Redneck Rampage, Rides Again, and Powerslave. Let's the player bring up a radial menu on the HUD for item usage as an alternative to item cycling. Slows the game down while open.
 - `IN-GAME VR CONTROLS AND WEAPON SHORTCUTS REFERENCE MENUS`. Let's the player quickly reference all the default VR Controls and Weapon Shortcuts.
 - `CHEAT MENU`. Let's the player enable god mode, toggle clipping, grant all weapons/keys/items, and skip/warp to different levels.
 - `TWO-HAND GRIP MODE TOGGLE`. Let's the player aim with both controllers.
