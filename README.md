@@ -121,7 +121,23 @@ This notice is therefore intended to explain **The VRaze Team's** good-faith int
 
 ---
 
-## 5. Meaning of "Organization"
+## 5. Internal Distribution Mechanisms and Public-Facing Hosting
+
+Neither the text of the GPLv2 nor the FSF's published guidance on internal distribution identifies a single mandatory technical mechanism, hosting arrangement, or delivery method by which an organization must provide copies of GPL-covered software to its own members for internal development and testing.
+
+The VRaze Team understands the distinction between the legal character of a transfer and the particular technical means used to facilitate that transfer to be important. The fact that a binary is hosted on a publicly accessible website, repository, or file server does not, standing alone, establish every relevant fact concerning the purpose of the transfer, the intended recipients, the relationship between those recipients and the development group, or the applicable obligations under copyright law and GPLv2.
+
+Accordingly, The VRaze Team's good-faith interpretation is that using a public-facing GitHub repository as a convenient technical mechanism for making experimental binaries available to specifically authorized members of its development/testing group is not, by that fact alone, incompatible with the concept of internal development and testing. This approach may be unconventional or less restrictive than a private repository, authenticated download portal, or other access-controlled distribution mechanism. However, The VRaze Team does not understand GPLv2 or the cited FSF guidance to impose a categorical requirement that internal development copies must be delivered through any one particular technical mechanism.
+
+The VRaze Team therefore distinguishes between the public accessibility of the hosting infrastructure and the team's intended purpose in providing a particular experimental binary. The team's position is that an experimental binary may be made available through this repository for the limited operational purpose of facilitating internal development, remote collaboration, quality assurance, debugging, and testing by authorized team members, without the team intending that act to constitute a general public release of that experimental build.
+
+This interpretation is not intended to suggest that labeling a binary "internal," identifying particular intended recipients, or describing a repository as an internal-testing channel automatically determines the legal status of a transfer. The actual circumstances of distribution, the nature of the recipient relationship, the rights of the relevant copyright holders, and the applicable provisions of GPLv2 remain controlling considerations. Public accessibility may also have legal consequences that cannot be resolved solely by the team's stated intent.
+
+Nothing in this section is intended to waive, restrict, or supersede any rights granted under GPLv2, to excuse any applicable corresponding-source obligations, or to prevent any person from exercising rights that the license grants them. This section explains The VRaze Team's reasoning for its chosen development workflow; it is not an assertion that the GNU Project or the Free Software Foundation has specifically approved this repository or determined that every transfer made through it constitutes internal distribution.
+
+---
+
+## 6. Meaning of "Organization"
 
 Neither GPLv2 nor the above FSF FAQ states that an "organization" must be a corporation, company, incorporated association, or other formally incorporated legal entity.
 
@@ -135,7 +151,7 @@ Neither GPLv2 nor the above FSF FAQ states that an "organization" must be a corp
 
 ---
 
-## 6. Experimental Binaries Are Not Public Releases
+## 7. Experimental Binaries Are Not Public Releases
 
 Experimental binaries may contain:
 
@@ -151,7 +167,7 @@ The experimental binary is not intended to constitute a new public release corre
 
 ---
 
-## 7. Corresponding Source and GPLv2 §3
+## 8. Corresponding Source and GPLv2 §3
 
 **The VRaze Team** recognizes that GPLv2 §3 imposes source-code obligations when covered object code is distributed in the circumstances described by that section.
 
@@ -169,7 +185,7 @@ Nothing in this notice is intended to waive, restrict, or supersede any rights g
 
 ---
 
-## 8. Unauthorized Acquisition Is Not Authorization
+## 9. Unauthorized Acquisition Is Not Authorization
 
 **The VRaze Team** makes a distinction between:
 
@@ -188,7 +204,7 @@ Accordingly, an unauthorized person who deliberately ignores this notice and obt
 
 ---
 
-## 9. No Additional Restriction of GPL Rights
+## 10. No Additional Restriction of GPL Rights
 
 Nothing in this notice is intended to impose additional contractual restrictions upon a person who has legitimately received a copy of GPL-covered software in circumstances where the GPL grants that person rights to copy, modify, or redistribute the software.
 
@@ -198,7 +214,7 @@ In particular, this notice should not be interpreted as an attempt to replace GP
 
 ---
 
-## 10. Temporary Nature of Experimental Builds
+## 11. Temporary Nature of Experimental Builds
 
 Experimental binaries may be removed, replaced, or superseded at any time.
 
@@ -208,7 +224,7 @@ The absence of a corresponding source tree for an experimental binary should the
 
 ---
 
-## 11. Relevant Official References
+## 12. Relevant Official References
 
 The following official GNU/FSF resources are relevant to the issues discussed above:
 
