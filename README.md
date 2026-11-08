@@ -4,7 +4,7 @@
 
 > **Please read the GPLv2 Experimental / Internal Test Build Notice at the bottom of this document before downloading or attempting to use any experimental binary contained in this repository.**
 
-## FEATURES (as of Alpha 1.14.0)
+## FEATURES (as of Alpha 1.18.0)
 - `BUILT-IN 3D WEAPONS` for Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, Rides Again, Exhumed/Powerslave, NAM, WW2GI and Witchaven.
 - `BUILT-IN-CUSTOM 3D WEAPON OFFSET MENU`. Let's the player adjust the position, scale, and orientation of 3D Weapons from within VRaze.
 - `BUILT-IN GAME SWITCHER`. Let's the player switch games from within VRaze. No companion app / launcher needed.
