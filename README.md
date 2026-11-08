@@ -5,15 +5,17 @@
 > **Please read the GPLv2 Experimental / Internal Test Build Notice at the bottom of this document before downloading or attempting to use any experimental binary contained in this repository.**
 
 ## FEATURES (as of Alpha 1.14.0)
-- `BUILT-IN 3D WEAPONS` for Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, Rides Again, Exhumed/Powerslave, NAM, and WW2GI.
+- `BUILT-IN 3D WEAPONS` for Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, Rides Again, Exhumed/Powerslave, NAM, WW2GI and Witchaven.
 - `BUILT-IN-CUSTOM 3D WEAPON OFFSET MENU`. Let's the player adjust the position, scale, and orientation of 3D Weapons from within VRaze.
 - `BUILT-IN GAME SWITCHER`. Let's the player switch games from within VRaze. No companion app / launcher needed.
 - `BUILT-IN MOD LOADER`. Let's the player activate mods from within VRaze. No companion app / launcher needed.
 - `MULTI-MOD SUPPORT`. Replaces def overrides with def accumulation and conflict specific overrides based on FIFO load order priority. First selected mod is applied first (lowest priority), second selected mod is applied next (overriding only conflicting definitions with first mod, higher priority), third selected mod is applied next (overriding only conflicting definitions with first and second mods, even higher priority), etc.
 - `MULTIPLAYER` for Duke Nukem 3D. Up to 16 player Dukematch (vs real opponents or AI controlled bots or both), adapted from NetDuke32, with custom usermap support. Playable via `Direct` TCP/IP connection or via integrated `NukemNet` IRC Relay.
+- `REAL VR MELEE COMBAT` for Witchaven. Physically swing weapons at enemies to do damage. Supports dual wielding (independently controlled weapons in each hand).
+- `MUTATORS` for Witchaven. A variety of toggleable game modifiers, such as respawning weapons, automap key markers, weather effects, enhanced gore, and more.
 - `WEAPON SELECT SHORTCUTS`. Let's the player quickly switch weapons with preset button combinations.
-- `WEAPON WHEEL` for Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, Rides Again, Powerslave, WW2GI, Platoon Leader, and NAM. Let's the player bring up a radial menu on the HUD for weapon swapping as an alternative to the weapon select shortcuts and weapon cycling. Slows game speed while open.
-- `ITEM WHEEL` for Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, Rides Again, Powerslave, WW2GI, Platoon Leader, and NAM. Let's the player bring up a radial menu on the HUD for item usage as an alternative to item cycling. Slows the game down while open.
+- `WEAPON WHEEL` for Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, Rides Again, Powerslave, WW2GI, Platoon Leader, NAM, and Witchaven. Let's the player bring up a radial menu on the HUD for weapon swapping as an alternative to the weapon select shortcuts and weapon cycling. Slows game speed while open.
+- `ITEM WHEEL` for Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, Rides Again, Powerslave, WW2GI, Platoon Leader, NAM, and Witchaven. Let's the player bring up a radial menu on the HUD for item usage as an alternative to item cycling. Slows the game down while open.
 - `IN-GAME VR CONTROLS AND WEAPON SHORTCUTS REFERENCE MENUS`. Let's the player quickly reference all the default VR Controls and Weapon Shortcuts.
 - `CHEAT MENU`. Let's the player enable god mode, toggle clipping, grant all weapons/keys/items, and skip/warp to different levels.
 - `TWO-HAND GRIP MODE TOGGLE`. Let's the player aim with both controllers.
@@ -40,6 +42,7 @@ Place game data in the following directories:
 | Exhumed / Powerslave              | VRaze/raze/exhumed/       |
 | NAM                               | VRaze/raze/nam/           |
 | WW2GI + Platoon Leader            | VRaze/raze/ww2gi/         |
+| Witchaven                         | VRaze/raze/witchaven/     |
 | Mods                              | VRaze/raze/mods/          |
 
 ## SUPPORTED GAME FILES
@@ -53,6 +56,7 @@ Place game data in the following directories:
 | Redneck Rampage Rides Again       | REDNECK.GRP/RIDES.GRP/RIDESAGAIN.GRP *(name may vary)*, CD music files |
 | Shadow Warrior + Expansions       | SW.GRP, TD.GRP/TWINDRAG.GRP *(name may vary)*, WT.GRP, CD music files |
 | WW2GI + Platoon Leader            | WW2GI.GRP, PLATOONL.DAT, PLATOONL.DEF |
+| Witchaven                         | JOESND, SONGS, TILES000.ART-TILES010.ART, LEVEL1.MAP-LEVEL25.MAP, PALETTE.DAT, LOOKUP.DAT, TABLES.DAT, MENUPAL.DAT, INTRO.SMK |
 
 
 # GPLv2 Experimental / Internal Test Build Notice
